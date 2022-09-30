@@ -1,0 +1,20 @@
+[
+    {
+        "name": "T-shirt",
+        "price": 10,
+        "image": "https://source.unsplash.com/random/?t-shirt"
+    },
+    {
+        "name": "Shoes",
+        "price": 20,
+        "image": "https://source.unsplash.com/random/?shoes"
+    },
+    {
+        "name": "Hat",
+        "price": 5,
+        "image": "https://source.unsplash.com/random/?hat"
+    }
+
+
+    
+]
