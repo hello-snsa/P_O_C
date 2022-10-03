@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:json_data_fetching/dataFetcher.dart';
+import 'package:json_data_fetching/reusable_demo.dart';
 import 'package:json_data_fetching/shopping.dart';
 
 void main() {
@@ -20,8 +21,16 @@ class MyApp extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    Shopping(),
-                    DataFetcher(),
+                    // Shopping(),
+                    // DataFetcher(),
+                    MyReusable(greet: 'hi'),
+                    MyReusable(greet: 'hello'),
+                    MyReusable(
+                      greet: 'hey',
+                      childOne: Text("Description"),
+                      myFunction: () => print("hello"),
+                      abc: "abc",
+                    ),
                   ],
                 ),
               ),
